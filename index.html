@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="estilos/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Proyecto</title>
+  </head>
+  <body>
+    <h1>Ejercicios con JavaScript</h1>
+    <h2>Primer ejercicio (producto y su iva).</h2>
+
+    <input type="number" id="precio" placeholder="Precio producto" />
+    <br />
+    <input type="number" id="iva" placeholder="IVA" />
+    <br />
+    <p id="totalPre"></p>
+    <button onclick="calPrecioTotal()">Enviar</button>
+
+    <h2>Segundo ejercicio (perímetro del cuadrado y area).</h2>
+    
+    <input type="number" id="LCuadrado" placeholder="Lado del cuadrado" />
+    <br />
+    
+    <p id="pCuadrado"></p>
+    <p id="aCuadrado"></p>
+    <button onclick="perimetoCuadrado()">Enviar</button>
+    
+    <h2>Tercer ejercicio (Nombre usuario).</h2>
+    <input type="text" id="usurio" placeholder="Ingresa tu nombre" />
+    <br />
+    
+    <p id="textNombre"></p>
+    <button onclick="nombreUsuario()">Enviar</button>
+    
+    <h2>Cuarto ejercicio (Numero del medio).</h2>
+    <input type="text" id="numero1" placeholder="Ingresa el primer valor" />
+    <input type="text" id="numero2" placeholder="Ingresa el segundo valor" />
+    <input type="text" id="numero3" placeholder="Ingresa el tercer valor" />
+    <br />
+    
+    <p id="numeroMedio"></p>
+    <button onclick="valorMedio()">Enviar</button>
+    <script src="js/logica.js"></script>
+  </body>
+</html>
